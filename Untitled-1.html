@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cardápio</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <h1>Cardápio Maravilhas</h1>
+        <div class="content">
+           
+            <div class="divider"></div>
+            <div class="right">
+            </div>
+        </div>
+        <ul class="menu">
+            <li>
+                <h2>Burguers tradicionais</h2>
+                <p>X-Burguer - R$ 25,00</p>
+                <p>X-Salada - R$ 30,00</p>
+                <p>X-Bacon - R$ 30,00</p>
+                <p>Calafrango - R$ 35,00</p>
+                <img src="Images\Burguer.jpg">
+                <br>
+                <button onclick="addToCart('Frango Grelhado')">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Burguers Deliciososo</h2>
+                <p>Onion Rings - R$ 40,00</p>
+                <p>Duplo Burguer    - R$ 50,00</p>
+                <p>Triplo Burguer - R$ 55,00</p>
+                <p>All in         - R$ 60,00</p>
+                <img src="Images\Burguer artesanal.jpg">
+                <br>
+                <button onclick="addToCart('Espaguete à Bolonhesa')">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Sobremesa</h2>
+                <p>Brownie com Sorvete - R$ 15,00</p>
+                <p>Chocolate Duplo R$ 15,00</p>
+                <p>Brigadeiro Colher R$ 10,00 </p>
+                <img src="Images\Brigadeiro.jpg">
+                <br>
+                <button onclick="addToCart('Brownie com Sorvete')">Adicionar ao Carrinho</button>
+            </li>
+            <li>
+                <h2>Bebidas</h2>
+                <p>Suco Natural - R$ 8,00</p>
+                <p>Refrigerante  - R$ 8,00</p>
+                <img src="Images\suco de merda.jpg" height="200px">
+                <br>
+                <button onclick="addToCart('Suco Natural')">Adicionar ao Carrinho</button>
+            </li>
+        </ul>
+        <div id="cart" class="cart"></div>
+    </div>
+</body>
+</html>
